@@ -1,0 +1,39 @@
+{
+  "chainId": 1,
+  "contracts": [
+    {
+      "name": "WithdrawalVerifier",
+      "address": "0x59ee1bf69965c1d8f60bf45f9489dce6ce777ffb",
+      "deployer": "0x015a226aecc0f61d160b1dcc596cbe3ed9919ff1",
+      "deploymentBlock": 22146268
+    },
+    {
+      "name": "CommitmentVerifier",
+      "address": "0x05d95875aae3fc63fa37cb480f5ca0e28ce424c2",
+      "deployer": "0x015a226aecc0f61d160b1dcc596cbe3ed9919ff1",
+      "deploymentBlock": 22146268
+    },
+    {
+      "name": "Entrypoint_Implementation",
+      "address": "0xa8f9dca342997798e89526ba43aff681163a665d",
+      "deployer": "0x015a226aecc0f61d160b1dcc596cbe3ed9919ff1",
+      "deploymentBlock": 22146268
+    },
+    {
+      "name": "Entrypoint_Proxy",
+      "address": "0xb254501cb16c364edcee533d54be33ea8c51addb",
+      "deployer": "0x015a226aecc0f61d160b1dcc596cbe3ed9919ff1",
+      "deploymentBlock": 22146268,
+      "constructorArgs": "0x000000000000000000000000a8f9dca342997798e89526ba43aff681163a665d00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000044485cc955000000000000000000000000015a226aecc0f61d160b1dcc596cbe3ed9919ff1000000000000000000000000015a226aecc0f61d160b1dcc596cbe3ed9919ff100000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "PrivacyPoolSimple_ETH",
+      "address": "0x440e72688c674de63e2de2ed49357fa6bac7b667",
+      "deployer": "0x015a226aecc0f61d160b1dcc596cbe3ed9919ff1",
+      "deploymentBlock": 22146268,
+      "scope": 8986012875846183941230350348170656323523364635057060794817676702207020544637,
+      "asset": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "constructorArgs": "0x000000000000000000000000b254501cb16c364edcee533d54be33ea8c51addb00000000000000000000000059ee1bf69965c1d8f60bf45f9489dce6ce777ffb00000000000000000000000005d95875aae3fc63fa37cb480f5ca0e28ce424c2"
+    }
+  ]
+}
